@@ -1,11 +1,19 @@
-import { defineConfig } from "umi";
+import { defineConfig } from 'umi'
 
 export default defineConfig({
   routes: [
-    { path: "/", component: "index" },
+    { path: '/', component: 'index' },
     {
-      path: "/404",
-      component: "404",
+      path: '/login',
+      component: '@/pages/Login',
+    },
+    {
+      path: '/deepseekDemo',
+      component: '@/pages/DeepSeekDemo',
+    },
+    {
+      path: '/404',
+      component: '404',
     },
   ],
-});
+})

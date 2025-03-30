@@ -1,5 +1,7 @@
-import DeepSeekDemo from "./deepSeekDemo"
+import DeepSeekDemo from "./DeepSeekDemo"
 
 export default function HomePage() {
-  return <DeepSeekDemo />;
+  return <>
+    index
+  </>;
 }
