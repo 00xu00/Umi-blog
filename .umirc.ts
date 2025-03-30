@@ -8,6 +8,10 @@ export default defineConfig({
       component: '@/pages/Login',
     },
     {
+      path: '/register',
+      component: '@/pages/Register',
+    },
+    {
       path: '/deepseekDemo',
       component: '@/pages/DeepSeekDemo',
     },
